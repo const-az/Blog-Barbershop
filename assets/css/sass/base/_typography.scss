@@ -1,0 +1,37 @@
+/* Base Typography*/
+
+// Fuente tipográfica
+h1, h2, h4, h6{
+  font-family: $playfair;
+}
+
+p{
+  font-family: $roboto;
+  font-weight: $roboto-light;
+}
+
+// Peso tipográfico
+h1, h2, h4{
+  font-weight: $bold;
+  font-style: italic;
+}
+
+h6{
+  font-weight: $regular;
+}
+
+// links
+a{
+  color: $ruddy-pink;
+  text-decoration: none;
+
+  &:hover{
+    color: $eerie-black;
+    text-decoration: none;
+  }
+
+  &:active{
+    color: $platinum;
+    text-decoration: none;
+  }
+}

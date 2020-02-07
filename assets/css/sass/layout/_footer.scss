@@ -1,0 +1,22 @@
+footer{
+  background-color: $eerie-black;
+  height: 200px;
+  display: flex;
+  .footer__image{
+    margin: auto;
+  }
+}
+
+/* Para dispositivos pequeños */
+@media (max-width: 991px) {
+  .footer__image{
+    width: 81px;
+  }
+}
+
+/* Para dispositivos grandes */
+@media (min-width: 992px) {
+  .footer__image{
+    width: 122px;
+  }
+}

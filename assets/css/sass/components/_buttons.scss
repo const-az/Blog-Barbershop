@@ -1,0 +1,41 @@
+.main_buttons button{
+  color: $white;
+  background-color: $nickel;
+  border-radius: 25px;
+  border: none;
+  box-sizing: border-box;
+
+  &:hover{
+    background-color: $light-gray;
+  }
+
+  &:focus{
+    border: solid 3px $light-gray;
+    background-color: $nickel;
+  }
+}
+
+.button__small{
+  width: 100px;
+  margin-right: 10px;
+}
+
+.button__medium{
+  width: 180px;
+}
+
+/* Para dispositivos pequeños */
+@media (max-width: 991px) {
+  .main_buttons button{
+    font-size: $small;
+    height: 45px;
+  }
+}
+
+/* Para dispositivos grandes */
+@media (min-width: 992px) {
+  .main_buttons button{
+    font-size: $medium;
+    height: 50px;
+  }
+}

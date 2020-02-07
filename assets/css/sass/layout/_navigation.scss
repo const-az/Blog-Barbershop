@@ -1,0 +1,30 @@
+.bg-eerie{
+  background-color: $eerie-black;
+  div{
+    a{
+      .logo__image{
+        height: 45px;
+        margin: 5px 0;
+      }
+    }
+    div{
+      #menu{
+        li{
+          .active{
+            color: $fuzzy-wuzzy;
+          }
+          a{
+            color: $white;
+            font-size: $medium;
+            &:hover{
+              color: $light-gray;
+            }
+            &:active{
+              color: $fuzzy-wuzzy;
+            }
+          }
+        }
+      }
+    }
+  }
+}

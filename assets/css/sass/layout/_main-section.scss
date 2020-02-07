@@ -1,0 +1,34 @@
+.main-section{
+  padding: 60px 30px;
+  display: flex;
+
+  .main__container{
+
+    .main__date{
+      font-size: $large;
+      color: $nickel;
+      margin-bottom: 60px;
+    }
+
+    .main__paragraph{
+      font-size: $medium;
+      line-height: $x-large;
+      margin: $x-large 0;
+      color: $raisin-black;
+    }
+
+    .main_buttons{
+      margin-top: 50px;
+    }
+  }
+}
+
+
+/* Para dispositivos pequeños */
+@media (max-width: 991px) {
+  .main_buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
